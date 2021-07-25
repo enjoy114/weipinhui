@@ -41,4 +41,4 @@ img为项目静态资源文件夹
 
 #### git仓库地址
 
-https://gitee.com/twelvethth/weipinhui
+https://github.com/enjoy114/weipinhui
