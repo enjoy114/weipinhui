@@ -1,0 +1,122 @@
+.contentWrap{
+background: rgb(161, 220, 238);
+overflow-x: hidden;
+}
+.content{
+    width: 1170px;
+    height: 1173px;
+    margin: 0 auto;
+    padding-bottom: 20px;   
+}
+.content img{
+    position: relative;
+    top: 0;
+    left: -375px;
+    z-index: 1;
+}
+.productwrap{
+    background: rgb(161, 220, 238);
+}
+.product{
+ width: 1170px;
+ margin: 0 auto;
+ overflow: hidden;
+}
+.oproduct_list_top{
+    height: 50px;
+    display: none;
+}
+.profuct_list_top{
+    width: 100%;
+    z-index: 100;   
+}
+.product_list_name{
+    width: 1170px;
+    height: 50px;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.product_list_name li{
+    width: 96px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid #d8d8d8;
+}
+.product_list_name li a{
+    color: #666;
+}
+.product_list_name li a:hover{
+    color: #f10180;
+}
+.product_list{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product_list li{
+    width: 216px;
+    height: 440px;
+    border: 1px solid #e0e0e0;
+    margin: 20px 0 0 0;
+    background: #fff;
+}
+.product_list li a{
+ color: #333;
+}
+.product_list li dl img{
+    width: 216px;
+    height: 273px;
+}
+.product_list li dl dt{
+    width: 216px;
+    height: 109px;
+}
+.product_list li dl dt p:nth-child(1){
+    width: 203px;
+    height: 31px;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 13px;
+    line-height: 31px;
+}
+.product_list li dl dt p:nth-child(1) span{
+    font-size: 24px;
+    font-weight: 900;
+}
+.product_list li dl dt p:nth-child(2){
+    width: 194px;
+    height: 20px;
+    margin: 8px 8px 14px;
+}
+.product_list li dl dt p:nth-child(3){
+    width: 194px;
+    height: 20px;
+    margin: 8px 8px 14px;
+    font-size: 12px;
+}
+.product_list li dl dd input{
+    width: 188px;
+    height: 26px;
+    border: 1px solid #f10180;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #f10180;
+    line-height: 26px;
+    text-align: center;
+    margin: 20px 14px;
+} 
+.product_list li:hover{
+     border: 1px solid #f10180;
+    color: #fff;
+}
+.product_list li:hover dl dd input{
+    background-color: #f10180; 
+    color: #fff;
+}

@@ -1,0 +1,47 @@
+/* 取消页面中所有标签自带空白 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 取消划线 */
+a{
+    text-decoration: none;
+}
+/* 取消列表符号 */
+ul,li,ol{
+    list-style: none;
+}
+/* 取消加粗 */
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+/* 取消倾斜 */
+em,i{
+    font-style: normal;
+}
+/* 解决图片缝隙 */
+img{
+    display: block;
+}
+/* 取消表单控件的边框和背景 */
+input{
+    border: none;
+    background: none;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 解决高度塌陷 */
+.clean:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

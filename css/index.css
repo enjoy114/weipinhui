@@ -1,0 +1,256 @@
+/* .hide_menu{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1000;
+    transform: translateY(-43px);
+    transition: all .3s;
+} */
+.contentwrap{
+    height: 500px;
+    background: url(../img/content1.jpg) no-repeat center;
+    z-index: -1;
+}
+.content{
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+   background: rgba(255, 255, 255, .8);
+   padding: 30px 0 20px 0;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+}
+.swiper-container {
+    height: 400px;
+    width: 1146px;
+    margin: 0 auto;
+}
+.ph{
+    width: 460px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 40px;
+}
+.ph span{
+    display: inline-block;
+    width: 229px;
+    height: 40px;
+    text-align: center;
+}
+.active{
+    border-bottom: 4px solid #f10180;
+    cursor: pointer;
+}
+.fade{
+    display: none;
+}
+.temai{
+    height: 120px;
+}
+.bikan{
+    height: 70px;
+    padding-bottom: 20px;
+}
+.temai img{
+    width:1170px;
+    height: 100%;
+    margin:0 auto;
+}
+.pic_box{
+    width:1170px;
+    height: 250px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.pic_box img{
+    width: 378px;
+    height: 100%;
+    cursor: pointer;
+}
+.bikan1_box{
+    width:1170px;
+    height: 342px;
+    margin:0 auto;
+    display: flex;
+    position: relative;
+}
+.bikan1_box img{
+    width: 50%;
+    height: 100%;
+}
+.left_bikan_box,.right_bikan_box{
+    width: 526px;
+    height: 217px;
+    position: absolute;
+    top:76px;
+    display: flex;
+    justify-content: space-between;
+}
+.right_bikan_box{
+    width: 540px;
+    right: 22px;
+}
+.bikan_center_box{
+    width: 172px;
+    height: 100%;
+    position: relative;
+    padding: 0 10px;
+    padding-right: 0;
+}
+.bikan_center_box img{
+    width: 100%;
+    height: 100%;
+}
+.logo_box{
+    width: 105px;
+    height: 76px;
+    border-radius: 4px 4px 0 0;
+    background: #fff;
+    position: absolute;
+    left: 46px;
+    top: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #585c64;
+}
+.logo_box img{
+    width: 80px;
+    height: 40px;
+}
+.bikan_center_box .price,.bikan2_center_box .price{
+    position: absolute;
+    left: 20px;
+    right: 0;
+    text-align: center;
+    bottom: -35px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale_price{
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 12px;
+    color: #fff;
+    background: #f03867;
+}
+.bikan_right_box{
+    width: 172px;
+    background: rgb(242, 242, 242);
+    padding: 0;
+}
+.bikan_right_box .bottom{
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(242, 242, 242);
+}
+.bikan_right_box .bottom .hot{
+    width: 120px;
+    height: 22px;
+}
+.bikan_right_box .bottom p{
+    margin-top:5px;
+}
+.bikan_right_box .bang{
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    background: #f03867;
+    position: absolute;
+    right: 10px;
+    bottom: -12px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+.bikan2_box img{
+    width: 100%;
+}
+.bikan2_box .goodlist{
+    position: absolute;
+    top:100px;
+    left: 25px;
+    right: 25px;
+    height: 170px;
+}
+.bikan2_center_box{
+    width: 170px;
+    padding: 0;
+}
+.bikan2_logo_box{
+    width: 100px;
+    height: 60px;
+    border-radius:0;
+    background: #fff;
+    position: absolute;
+    left: 35px;
+    top: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #585c64;
+    background: #fff;
+    border: 1px rgb(232, 232, 232) solid;
+}
+.bikan2_logo_box img{
+    width:80px;
+    height: 40px;
+}
+.bikan2_center_box .price{
+    bottom: -63px;
+    left: 0;
+}
+.goodlist{
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    width: 1170px;
+    margin: 45px auto 0; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product dl{
+    width: 570px;
+    height: 370px;
+}
+.product dl dt img{
+    width: 570px;
+    height: 273px;
+}
+.product dl dd{
+    width: 540px;
+    height: 38px;
+    margin-top: 18px;
+}
+.product dl dd span{
+    font-size: 26px;
+    color: #f03867;
+    font-weight: 900;
+}
+.product dl dd{
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+}
